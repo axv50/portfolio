@@ -81,31 +81,41 @@ flex-wrap: wrap;
 }
 
 .about {
-    width: 100%;
-    margin: 0 auto;
-    flex-direction: row;
+    float: left;
     flex-wrap: wrap;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px 50px;
-    padding-bottom: 50px;
-    align-items: center;
     color: rgb(22, 26, 46);
 }
 
 .name-sec {
-    margin:20px auto;
+    margin:50px 0px;
     font-size: 34px;
     text-align: left;
+    padding-right: 50px;
 }
 
 .sections {
 border-left: 5px solid rgb(22, 26, 46) ;
+padding: 20px 35px;
 }
+
+#work-sample {
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.sample1-img img {
+    margin: 20px 20px;
+    width: 500px;
+    
+}
+
+
