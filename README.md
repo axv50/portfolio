@@ -10,10 +10,8 @@ Readme
 Description:
 Second Challenge 
 
-Site Screen shot: 
-https://github.com
 Git Hub Repo:
-https://github.com
+https://github.com/axv50/portfolio
 
 Working Site:
-https://axv50.github.
+https://axv50.github.io/portfolio/
