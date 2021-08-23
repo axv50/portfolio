@@ -5,13 +5,13 @@
 }
 
 body {
-    background:gray;
+    background:rgb(247, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     padding: 20px 35px;
-    background: #023d44;
+    background: #303131;
     display: flex;
     justify-content: space-between;
     flex-wrap: inline;
@@ -19,15 +19,17 @@ header {
 }
 
 header h1 {
-    color: hotpink;
-    font-size: 36px;
+    color: rgb(22, 26, 46) ;
+    font-size: 40px;
     font-weight: bolder;
     margin: 0;
+    background-color: rgb(181, 241, 237);
 }
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color:rgb(22, 26, 46);
+    background-color:rgb(181, 241, 237) ;
 }
 
 
@@ -50,16 +52,27 @@ header nav ul {
 }
 
 footer {
-    background: #fce138;
+    background: rgb(22, 26, 46);
     width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+section {
+    padding: 60px;
+}
+
+.hero h2 {
+    text-align: right;
+    color: rgb(187, 182, 182);
+    margin: 3.5%;
+    font-size: 34px;
+}
+
 .hero {
 background-image: url("../image/banner.jpg");
-align-items: flex-start;
 background-size: cover;
 background-position: center;
 display: flex;
@@ -67,7 +80,32 @@ justify-content: center;
 flex-wrap: wrap;
 }
 
+.about {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-#about-me h2 {
-    color: hotpink;
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    color: rgb(22, 26, 46);
+}
+
+.name-sec {
+    margin:20px auto;
+    font-size: 34px;
+    text-align: left;
+}
+
+.sections {
+border-left: 5px solid rgb(22, 26, 46) ;
 }
